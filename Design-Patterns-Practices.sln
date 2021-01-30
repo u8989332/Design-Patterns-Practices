@@ -29,13 +29,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailOffice", "FacadePattern
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuilderPattern", "BuilderPattern", "{0BC19E97-AE73-43EF-88A5-763B5EF4879C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawPerson", "BuilderPattern\DrawPerson\DrawPerson.csproj", "{B61F9CF0-F04E-4BC0-BDA8-3FF36279DA48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrawPerson", "BuilderPattern\DrawPerson\DrawPerson.csproj", "{B61F9CF0-F04E-4BC0-BDA8-3FF36279DA48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarModel", "BuilderPattern\CarModel\CarModel.csproj", "{2C5F58BC-F8E1-40D3-9580-EB36FC5D7ABC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarModel", "BuilderPattern\CarModel\CarModel.csproj", "{2C5F58BC-F8E1-40D3-9580-EB36FC5D7ABC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderWithAttribute", "BuilderPattern\BuilderWithAttribute\BuilderWithAttribute.csproj", "{EC0E2A81-79C9-4110-ABA6-C167A5FD42C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderWithAttribute", "BuilderPattern\BuilderWithAttribute\BuilderWithAttribute.csproj", "{EC0E2A81-79C9-4110-ABA6-C167A5FD42C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greeting", "BuilderPattern\Greeting\Greeting.csproj", "{8E711FFA-1B5E-4445-9924-54147DD803CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Greeting", "BuilderPattern\Greeting\Greeting.csproj", "{8E711FFA-1B5E-4445-9924-54147DD803CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ObserverPattern", "ObserverPattern", "{1EDB31FE-AF2F-4B2F-8D7B-9740023E63F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockWithObserver", "ObserverPattern\StockWithObserver\StockWithObserver.csproj", "{77149951-A7FD-46CC-9CFF-9F60B6019B57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockWithDelegate", "ObserverPattern\StockWithDelegate\StockWithDelegate.csproj", "{57B4670A-E528-46DF-8E09-9FB3F1AED8B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -95,6 +101,14 @@ Global
 		{8E711FFA-1B5E-4445-9924-54147DD803CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E711FFA-1B5E-4445-9924-54147DD803CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E711FFA-1B5E-4445-9924-54147DD803CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77149951-A7FD-46CC-9CFF-9F60B6019B57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77149951-A7FD-46CC-9CFF-9F60B6019B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77149951-A7FD-46CC-9CFF-9F60B6019B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77149951-A7FD-46CC-9CFF-9F60B6019B57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57B4670A-E528-46DF-8E09-9FB3F1AED8B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57B4670A-E528-46DF-8E09-9FB3F1AED8B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57B4670A-E528-46DF-8E09-9FB3F1AED8B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57B4670A-E528-46DF-8E09-9FB3F1AED8B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -113,6 +127,8 @@ Global
 		{2C5F58BC-F8E1-40D3-9580-EB36FC5D7ABC} = {0BC19E97-AE73-43EF-88A5-763B5EF4879C}
 		{EC0E2A81-79C9-4110-ABA6-C167A5FD42C4} = {0BC19E97-AE73-43EF-88A5-763B5EF4879C}
 		{8E711FFA-1B5E-4445-9924-54147DD803CF} = {0BC19E97-AE73-43EF-88A5-763B5EF4879C}
+		{77149951-A7FD-46CC-9CFF-9F60B6019B57} = {1EDB31FE-AF2F-4B2F-8D7B-9740023E63F9}
+		{57B4670A-E528-46DF-8E09-9FB3F1AED8B2} = {1EDB31FE-AF2F-4B2F-8D7B-9740023E63F9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACB66D9-89EF-4DE2-9185-4F45289604E6}
