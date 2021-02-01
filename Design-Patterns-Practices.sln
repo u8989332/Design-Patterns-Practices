@@ -43,9 +43,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockWithObserver", "Observ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockWithDelegate", "ObserverPattern\StockWithDelegate\StockWithDelegate.csproj", "{57B4670A-E528-46DF-8E09-9FB3F1AED8B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoyalSpy", "ObserverPattern\RoyalSpy\RoyalSpy.csproj", "{0F768F6B-314C-475F-A1BB-A172C31AD32D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoyalSpy", "ObserverPattern\RoyalSpy\RoyalSpy.csproj", "{0F768F6B-314C-475F-A1BB-A172C31AD32D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberDisplay", "ObserverPattern\NumberDisplay\NumberDisplay.csproj", "{BC227325-8D28-4FC0-8F4D-325A37C797E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberDisplay", "ObserverPattern\NumberDisplay\NumberDisplay.csproj", "{BC227325-8D28-4FC0-8F4D-325A37C797E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbstractFactoryPattern", "AbstractFactoryPattern", "{93B76BBE-7096-44AF-9054-5CFE80FDC6DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBConnect", "AbstractFactoryPattern\DBConnect\DBConnect.csproj", "{821147B3-748F-4705-8F4C-3B4C6FD96943}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbConnectWithSimpleFactoryReflection", "AbstractFactoryPattern\DbConnectWithSimpleFactoryReflection\DbConnectWithSimpleFactoryReflection.csproj", "{BE705982-FBE8-4552-AB02-CCC7FFA45289}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,6 +127,14 @@ Global
 		{BC227325-8D28-4FC0-8F4D-325A37C797E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC227325-8D28-4FC0-8F4D-325A37C797E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC227325-8D28-4FC0-8F4D-325A37C797E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821147B3-748F-4705-8F4C-3B4C6FD96943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821147B3-748F-4705-8F4C-3B4C6FD96943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821147B3-748F-4705-8F4C-3B4C6FD96943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821147B3-748F-4705-8F4C-3B4C6FD96943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE705982-FBE8-4552-AB02-CCC7FFA45289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE705982-FBE8-4552-AB02-CCC7FFA45289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE705982-FBE8-4552-AB02-CCC7FFA45289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE705982-FBE8-4552-AB02-CCC7FFA45289}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -143,6 +157,8 @@ Global
 		{57B4670A-E528-46DF-8E09-9FB3F1AED8B2} = {1EDB31FE-AF2F-4B2F-8D7B-9740023E63F9}
 		{0F768F6B-314C-475F-A1BB-A172C31AD32D} = {1EDB31FE-AF2F-4B2F-8D7B-9740023E63F9}
 		{BC227325-8D28-4FC0-8F4D-325A37C797E7} = {1EDB31FE-AF2F-4B2F-8D7B-9740023E63F9}
+		{821147B3-748F-4705-8F4C-3B4C6FD96943} = {93B76BBE-7096-44AF-9054-5CFE80FDC6DE}
+		{BE705982-FBE8-4552-AB02-CCC7FFA45289} = {93B76BBE-7096-44AF-9054-5CFE80FDC6DE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACB66D9-89EF-4DE2-9185-4F45289604E6}
