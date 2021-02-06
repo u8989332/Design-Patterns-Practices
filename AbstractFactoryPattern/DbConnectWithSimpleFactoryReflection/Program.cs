@@ -1,6 +1,5 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using System;
 
 namespace DbConnectWithSimpleFactoryReflection
@@ -9,8 +8,6 @@ namespace DbConnectWithSimpleFactoryReflection
     {
         static void Main(string[] args)
         {
-            using IHost host = CreateHostBuilder(args).Build();
-
             IConfiguration config = new ConfigurationBuilder()
                 .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
                 .Build();
@@ -41,21 +38,5 @@ namespace DbConnectWithSimpleFactoryReflection
 
             Console.Read();
         }
-
-        static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureAppConfiguration((hostingContext, configuration) =>
-                {
-                    configuration.Sources.Clear();
-
-                    IHostEnvironment env = hostingContext.HostingEnvironment;
-
-                    configuration
-                        .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
-                        .AddJsonFile($"appsettings.{env.EnvironmentName}.json", true, true);
-
-                    IConfigurationRoot configurationRoot = configuration.Build();
-
-                });
     }
 }

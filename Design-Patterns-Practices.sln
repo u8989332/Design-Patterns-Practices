@@ -55,13 +55,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbConnectWithSimpleFactoryR
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanBuilder", "AbstractFactoryPattern\HumanBuilder\HumanBuilder.csproj", "{30688B49-518C-42C7-9FDC-11D754E16A45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryWithTypeMapper", "AbstractFactoryPattern\AbstractFactoryWithTypeMapper\AbstractFactoryWithTypeMapper.csproj", "{878C4CDC-3EF6-4B1B-9593-704E74F0390D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryWithTypeMapper", "AbstractFactoryPattern\AbstractFactoryWithTypeMapper\AbstractFactoryWithTypeMapper.csproj", "{878C4CDC-3EF6-4B1B-9593-704E74F0390D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryWithTypeMapper.Tests", "AbstractFactoryPattern\AbstractFactoryWithTypeMapper.Tests\AbstractFactoryWithTypeMapper.Tests.csproj", "{810DE14D-FD43-46CE-82DF-D193E97007A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryWithTypeMapper.Tests", "AbstractFactoryPattern\AbstractFactoryWithTypeMapper.Tests\AbstractFactoryWithTypeMapper.Tests.csproj", "{810DE14D-FD43-46CE-82DF-D193E97007A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryWithAssemblerMechanism", "AbstractFactoryPattern\AbstractFactoryWithAssemblerMechanism\AbstractFactoryWithAssemblerMechanism.csproj", "{56025097-C866-4FAC-AE1B-318D237B677E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryWithAssemblerMechanism", "AbstractFactoryPattern\AbstractFactoryWithAssemblerMechanism\AbstractFactoryWithAssemblerMechanism.csproj", "{56025097-C866-4FAC-AE1B-318D237B677E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryWithAssemblerMechanism.Tests", "AbstractFactoryPattern\AbstractFactoryWithAssemblerMechanism.Tests\AbstractFactoryWithAssemblerMechanism.Tests.csproj", "{24C8B86A-7CD2-49F8-B080-E70DB8FA64DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryWithAssemblerMechanism.Tests", "AbstractFactoryPattern\AbstractFactoryWithAssemblerMechanism.Tests\AbstractFactoryWithAssemblerMechanism.Tests.csproj", "{24C8B86A-7CD2-49F8-B080-E70DB8FA64DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryWithDelegate", "AbstractFactoryPattern\AbstractFactoryWithDelegate\AbstractFactoryWithDelegate.csproj", "{9F60B46A-E8DA-417B-AC5D-867B93FE015B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryWithDelegate.Tests", "AbstractFactoryPattern\AbstractFactoryWithDelegate.Tests\AbstractFactoryWithDelegate.Tests.csproj", "{70C00749-C141-4828-AA97-F67B1A9AEE29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlItems", "AbstractFactoryPattern\HtmlItems\HtmlItems.csproj", "{17C8D08F-5068-42F5-968F-F37DD5002B3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +171,18 @@ Global
 		{24C8B86A-7CD2-49F8-B080-E70DB8FA64DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24C8B86A-7CD2-49F8-B080-E70DB8FA64DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24C8B86A-7CD2-49F8-B080-E70DB8FA64DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F60B46A-E8DA-417B-AC5D-867B93FE015B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F60B46A-E8DA-417B-AC5D-867B93FE015B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F60B46A-E8DA-417B-AC5D-867B93FE015B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F60B46A-E8DA-417B-AC5D-867B93FE015B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70C00749-C141-4828-AA97-F67B1A9AEE29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70C00749-C141-4828-AA97-F67B1A9AEE29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70C00749-C141-4828-AA97-F67B1A9AEE29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70C00749-C141-4828-AA97-F67B1A9AEE29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17C8D08F-5068-42F5-968F-F37DD5002B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17C8D08F-5068-42F5-968F-F37DD5002B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17C8D08F-5068-42F5-968F-F37DD5002B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17C8D08F-5068-42F5-968F-F37DD5002B3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -194,6 +212,9 @@ Global
 		{810DE14D-FD43-46CE-82DF-D193E97007A2} = {93B76BBE-7096-44AF-9054-5CFE80FDC6DE}
 		{56025097-C866-4FAC-AE1B-318D237B677E} = {93B76BBE-7096-44AF-9054-5CFE80FDC6DE}
 		{24C8B86A-7CD2-49F8-B080-E70DB8FA64DC} = {93B76BBE-7096-44AF-9054-5CFE80FDC6DE}
+		{9F60B46A-E8DA-417B-AC5D-867B93FE015B} = {93B76BBE-7096-44AF-9054-5CFE80FDC6DE}
+		{70C00749-C141-4828-AA97-F67B1A9AEE29} = {93B76BBE-7096-44AF-9054-5CFE80FDC6DE}
+		{17C8D08F-5068-42F5-968F-F37DD5002B3C} = {93B76BBE-7096-44AF-9054-5CFE80FDC6DE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACB66D9-89EF-4DE2-9185-4F45289604E6}
