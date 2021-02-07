@@ -77,6 +77,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyLift", "StatePattern\MyLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlarmSystem", "StatePattern\AlarmSystem\AlarmSystem.csproj", "{8F1E8D02-76D4-4E54-8498-91B496E38C2C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdapterPattern", "AdapterPattern", "{CF084B37-82C4-45A4-9CDB-79E84B70E219}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerTranslator", "AdapterPattern\PlayerTranslator\PlayerTranslator.csproj", "{4CB3E81B-3EB2-41DB-A7CA-3545F2A9F050}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -203,6 +207,10 @@ Global
 		{8F1E8D02-76D4-4E54-8498-91B496E38C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F1E8D02-76D4-4E54-8498-91B496E38C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F1E8D02-76D4-4E54-8498-91B496E38C2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CB3E81B-3EB2-41DB-A7CA-3545F2A9F050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CB3E81B-3EB2-41DB-A7CA-3545F2A9F050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CB3E81B-3EB2-41DB-A7CA-3545F2A9F050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CB3E81B-3EB2-41DB-A7CA-3545F2A9F050}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -238,6 +246,7 @@ Global
 		{A5FBFA0D-6C54-4B95-96A4-41ECB79CBC67} = {5F383316-BD56-48A7-83EB-41F1E302A9FC}
 		{EAB4F33F-3CAA-4F06-AA7E-636FF6DC6004} = {5F383316-BD56-48A7-83EB-41F1E302A9FC}
 		{8F1E8D02-76D4-4E54-8498-91B496E38C2C} = {5F383316-BD56-48A7-83EB-41F1E302A9FC}
+		{4CB3E81B-3EB2-41DB-A7CA-3545F2A9F050} = {CF084B37-82C4-45A4-9CDB-79E84B70E219}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACB66D9-89EF-4DE2-9185-4F45289604E6}
