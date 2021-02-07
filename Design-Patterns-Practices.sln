@@ -63,11 +63,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryWithAssemble
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryWithAssemblerMechanism.Tests", "AbstractFactoryPattern\AbstractFactoryWithAssemblerMechanism.Tests\AbstractFactoryWithAssemblerMechanism.Tests.csproj", "{24C8B86A-7CD2-49F8-B080-E70DB8FA64DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryWithDelegate", "AbstractFactoryPattern\AbstractFactoryWithDelegate\AbstractFactoryWithDelegate.csproj", "{9F60B46A-E8DA-417B-AC5D-867B93FE015B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryWithDelegate", "AbstractFactoryPattern\AbstractFactoryWithDelegate\AbstractFactoryWithDelegate.csproj", "{9F60B46A-E8DA-417B-AC5D-867B93FE015B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryWithDelegate.Tests", "AbstractFactoryPattern\AbstractFactoryWithDelegate.Tests\AbstractFactoryWithDelegate.Tests.csproj", "{70C00749-C141-4828-AA97-F67B1A9AEE29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryWithDelegate.Tests", "AbstractFactoryPattern\AbstractFactoryWithDelegate.Tests\AbstractFactoryWithDelegate.Tests.csproj", "{70C00749-C141-4828-AA97-F67B1A9AEE29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlItems", "AbstractFactoryPattern\HtmlItems\HtmlItems.csproj", "{17C8D08F-5068-42F5-968F-F37DD5002B3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HtmlItems", "AbstractFactoryPattern\HtmlItems\HtmlItems.csproj", "{17C8D08F-5068-42F5-968F-F37DD5002B3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StatePattern", "StatePattern", "{5F383316-BD56-48A7-83EB-41F1E302A9FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyWork", "StatePattern\MyWork\MyWork.csproj", "{A5FBFA0D-6C54-4B95-96A4-41ECB79CBC67}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyLift", "StatePattern\MyLift\MyLift.csproj", "{EAB4F33F-3CAA-4F06-AA7E-636FF6DC6004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlarmSystem", "StatePattern\AlarmSystem\AlarmSystem.csproj", "{8F1E8D02-76D4-4E54-8498-91B496E38C2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,6 +191,18 @@ Global
 		{17C8D08F-5068-42F5-968F-F37DD5002B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17C8D08F-5068-42F5-968F-F37DD5002B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17C8D08F-5068-42F5-968F-F37DD5002B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5FBFA0D-6C54-4B95-96A4-41ECB79CBC67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5FBFA0D-6C54-4B95-96A4-41ECB79CBC67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5FBFA0D-6C54-4B95-96A4-41ECB79CBC67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5FBFA0D-6C54-4B95-96A4-41ECB79CBC67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAB4F33F-3CAA-4F06-AA7E-636FF6DC6004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAB4F33F-3CAA-4F06-AA7E-636FF6DC6004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAB4F33F-3CAA-4F06-AA7E-636FF6DC6004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAB4F33F-3CAA-4F06-AA7E-636FF6DC6004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F1E8D02-76D4-4E54-8498-91B496E38C2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F1E8D02-76D4-4E54-8498-91B496E38C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F1E8D02-76D4-4E54-8498-91B496E38C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F1E8D02-76D4-4E54-8498-91B496E38C2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -215,6 +235,9 @@ Global
 		{9F60B46A-E8DA-417B-AC5D-867B93FE015B} = {93B76BBE-7096-44AF-9054-5CFE80FDC6DE}
 		{70C00749-C141-4828-AA97-F67B1A9AEE29} = {93B76BBE-7096-44AF-9054-5CFE80FDC6DE}
 		{17C8D08F-5068-42F5-968F-F37DD5002B3C} = {93B76BBE-7096-44AF-9054-5CFE80FDC6DE}
+		{A5FBFA0D-6C54-4B95-96A4-41ECB79CBC67} = {5F383316-BD56-48A7-83EB-41F1E302A9FC}
+		{EAB4F33F-3CAA-4F06-AA7E-636FF6DC6004} = {5F383316-BD56-48A7-83EB-41F1E302A9FC}
+		{8F1E8D02-76D4-4E54-8498-91B496E38C2C} = {5F383316-BD56-48A7-83EB-41F1E302A9FC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACB66D9-89EF-4DE2-9185-4F45289604E6}
