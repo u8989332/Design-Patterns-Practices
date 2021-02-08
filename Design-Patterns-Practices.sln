@@ -85,6 +85,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MementoPattern", "MementoPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamePlayer", "MementoPattern\GamePlayer\GamePlayer.csproj", "{85A0942D-80D4-4DFB-8493-90FE7A79A278}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompositePattern", "CompositePattern", "{EB27C769-9A5A-4D74-A7E6-5832A1819AF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyHierarchy", "CompositePattern\CompanyHierarchy\CompanyHierarchy.csproj", "{61879F12-9076-4463-9948-867FA7FB8C03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -219,6 +223,10 @@ Global
 		{85A0942D-80D4-4DFB-8493-90FE7A79A278}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85A0942D-80D4-4DFB-8493-90FE7A79A278}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85A0942D-80D4-4DFB-8493-90FE7A79A278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61879F12-9076-4463-9948-867FA7FB8C03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61879F12-9076-4463-9948-867FA7FB8C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61879F12-9076-4463-9948-867FA7FB8C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61879F12-9076-4463-9948-867FA7FB8C03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -256,6 +264,7 @@ Global
 		{8F1E8D02-76D4-4E54-8498-91B496E38C2C} = {5F383316-BD56-48A7-83EB-41F1E302A9FC}
 		{4CB3E81B-3EB2-41DB-A7CA-3545F2A9F050} = {CF084B37-82C4-45A4-9CDB-79E84B70E219}
 		{85A0942D-80D4-4DFB-8493-90FE7A79A278} = {2EF61449-0F30-44E0-8661-CD429532B737}
+		{61879F12-9076-4463-9948-867FA7FB8C03} = {EB27C769-9A5A-4D74-A7E6-5832A1819AF8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACB66D9-89EF-4DE2-9185-4F45289604E6}
