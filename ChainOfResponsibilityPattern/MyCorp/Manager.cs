@@ -1,0 +1,19 @@
+﻿namespace MyCorp
+{
+    abstract class Manager
+    {
+        protected string name;
+        public Manager superior;
+        public Manager(string name)
+        {
+            this.name = name;
+        }
+
+        public void SetSuperior(Manager superior)
+        {
+            this.superior = superior;
+        }
+
+        public abstract void RequestApplications(Request request);
+    }
+}
