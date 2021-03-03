@@ -137,6 +137,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BannerByObjectAdapter", "..
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoyHitOnGirl", "MementoPattern\BoyHitOnGirl\BoyHitOnGirl.csproj", "{C41AD890-E3F2-49A9-B35F-16B415C7F38E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiStateMemento", "MementoPattern\MultiStateMemento\MultiStateMemento.csproj", "{7191665F-25DB-4D8B-8EAC-0CCD28DEBA09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoWithEncapsulation", "MementoPattern\MementoWithEncapsulation\MementoWithEncapsulation.csproj", "{B4C82656-1E41-4406-918D-DB382ACDBD06}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -335,6 +339,14 @@ Global
 		{C41AD890-E3F2-49A9-B35F-16B415C7F38E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C41AD890-E3F2-49A9-B35F-16B415C7F38E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C41AD890-E3F2-49A9-B35F-16B415C7F38E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7191665F-25DB-4D8B-8EAC-0CCD28DEBA09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7191665F-25DB-4D8B-8EAC-0CCD28DEBA09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7191665F-25DB-4D8B-8EAC-0CCD28DEBA09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7191665F-25DB-4D8B-8EAC-0CCD28DEBA09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4C82656-1E41-4406-918D-DB382ACDBD06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C82656-1E41-4406-918D-DB382ACDBD06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C82656-1E41-4406-918D-DB382ACDBD06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C82656-1E41-4406-918D-DB382ACDBD06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -388,6 +400,8 @@ Global
 		{517424E0-71F8-4825-8B82-00140A89739E} = {CF084B37-82C4-45A4-9CDB-79E84B70E219}
 		{BAF7AA04-1CDA-4042-97D9-FF2AEF5313A8} = {CF084B37-82C4-45A4-9CDB-79E84B70E219}
 		{C41AD890-E3F2-49A9-B35F-16B415C7F38E} = {2EF61449-0F30-44E0-8661-CD429532B737}
+		{7191665F-25DB-4D8B-8EAC-0CCD28DEBA09} = {2EF61449-0F30-44E0-8661-CD429532B737}
+		{B4C82656-1E41-4406-918D-DB382ACDBD06} = {2EF61449-0F30-44E0-8661-CD429532B737}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACB66D9-89EF-4DE2-9185-4F45289604E6}
