@@ -131,9 +131,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbAdapterWithFactory", "Ada
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbAdapterWithFactory.Tests", "AdapterPattern\DbAdapterWithFactory.Tests\DbAdapterWithFactory.Tests.csproj", "{06D611BD-A584-476E-9C29-87D2F325D790}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BannerByClassAdapter", "AdapterPattern\BannerByClassAdapter\BannerByClassAdapter.csproj", "{517424E0-71F8-4825-8B82-00140A89739E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BannerByClassAdapter", "AdapterPattern\BannerByClassAdapter\BannerByClassAdapter.csproj", "{517424E0-71F8-4825-8B82-00140A89739E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BannerByObjectAdapter", "..\AdapterPattern\BannerByObjectAdapter\BannerByObjectAdapter.csproj", "{BAF7AA04-1CDA-4042-97D9-FF2AEF5313A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BannerByObjectAdapter", "..\AdapterPattern\BannerByObjectAdapter\BannerByObjectAdapter.csproj", "{BAF7AA04-1CDA-4042-97D9-FF2AEF5313A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoyHitOnGirl", "MementoPattern\BoyHitOnGirl\BoyHitOnGirl.csproj", "{C41AD890-E3F2-49A9-B35F-16B415C7F38E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -329,6 +331,10 @@ Global
 		{BAF7AA04-1CDA-4042-97D9-FF2AEF5313A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAF7AA04-1CDA-4042-97D9-FF2AEF5313A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAF7AA04-1CDA-4042-97D9-FF2AEF5313A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C41AD890-E3F2-49A9-B35F-16B415C7F38E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C41AD890-E3F2-49A9-B35F-16B415C7F38E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C41AD890-E3F2-49A9-B35F-16B415C7F38E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C41AD890-E3F2-49A9-B35F-16B415C7F38E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -381,6 +387,7 @@ Global
 		{06D611BD-A584-476E-9C29-87D2F325D790} = {CF084B37-82C4-45A4-9CDB-79E84B70E219}
 		{517424E0-71F8-4825-8B82-00140A89739E} = {CF084B37-82C4-45A4-9CDB-79E84B70E219}
 		{BAF7AA04-1CDA-4042-97D9-FF2AEF5313A8} = {CF084B37-82C4-45A4-9CDB-79E84B70E219}
+		{C41AD890-E3F2-49A9-B35F-16B415C7F38E} = {2EF61449-0F30-44E0-8661-CD429532B737}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACB66D9-89EF-4DE2-9185-4F45289604E6}
