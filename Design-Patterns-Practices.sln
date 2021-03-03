@@ -133,17 +133,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbAdapterWithFactory.Tests"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BannerByClassAdapter", "AdapterPattern\BannerByClassAdapter\BannerByClassAdapter.csproj", "{517424E0-71F8-4825-8B82-00140A89739E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BannerByObjectAdapter", "..\AdapterPattern\BannerByObjectAdapter\BannerByObjectAdapter.csproj", "{BAF7AA04-1CDA-4042-97D9-FF2AEF5313A8}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoyHitOnGirl", "MementoPattern\BoyHitOnGirl\BoyHitOnGirl.csproj", "{C41AD890-E3F2-49A9-B35F-16B415C7F38E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiStateMemento", "MementoPattern\MultiStateMemento\MultiStateMemento.csproj", "{7191665F-25DB-4D8B-8EAC-0CCD28DEBA09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiStateMemento", "MementoPattern\MultiStateMemento\MultiStateMemento.csproj", "{7191665F-25DB-4D8B-8EAC-0CCD28DEBA09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoWithEncapsulation", "MementoPattern\MementoWithEncapsulation\MementoWithEncapsulation.csproj", "{B4C82656-1E41-4406-918D-DB382ACDBD06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoWithEncapsulation", "MementoPattern\MementoWithEncapsulation\MementoWithEncapsulation.csproj", "{B4C82656-1E41-4406-918D-DB382ACDBD06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoWithGeneric", "MementoPattern\MementoWithGeneric\MementoWithGeneric.csproj", "{40B54B41-5094-4C5D-9B3C-BB86B22FBC65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoWithGeneric", "MementoPattern\MementoWithGeneric\MementoWithGeneric.csproj", "{40B54B41-5094-4C5D-9B3C-BB86B22FBC65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoWithGeneric.Tests", "MementoPattern\MementoWithGeneric.Tests\MementoWithGeneric.Tests.csproj", "{269AA53E-4247-4210-BD13-7819B07828A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoWithGeneric.Tests", "MementoPattern\MementoWithGeneric.Tests\MementoWithGeneric.Tests.csproj", "{269AA53E-4247-4210-BD13-7819B07828A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BannerByObjectAdapter", "AdapterPattern\BannerByObjectAdapter\BannerByObjectAdapter.csproj", "{CD27CCDD-AFD5-4C22-B76D-AABFFA8277CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -335,10 +335,6 @@ Global
 		{517424E0-71F8-4825-8B82-00140A89739E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{517424E0-71F8-4825-8B82-00140A89739E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{517424E0-71F8-4825-8B82-00140A89739E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BAF7AA04-1CDA-4042-97D9-FF2AEF5313A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BAF7AA04-1CDA-4042-97D9-FF2AEF5313A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BAF7AA04-1CDA-4042-97D9-FF2AEF5313A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BAF7AA04-1CDA-4042-97D9-FF2AEF5313A8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C41AD890-E3F2-49A9-B35F-16B415C7F38E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C41AD890-E3F2-49A9-B35F-16B415C7F38E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C41AD890-E3F2-49A9-B35F-16B415C7F38E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -359,6 +355,10 @@ Global
 		{269AA53E-4247-4210-BD13-7819B07828A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{269AA53E-4247-4210-BD13-7819B07828A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{269AA53E-4247-4210-BD13-7819B07828A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD27CCDD-AFD5-4C22-B76D-AABFFA8277CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD27CCDD-AFD5-4C22-B76D-AABFFA8277CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD27CCDD-AFD5-4C22-B76D-AABFFA8277CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD27CCDD-AFD5-4C22-B76D-AABFFA8277CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -410,12 +410,12 @@ Global
 		{417F0342-1E7F-429B-9500-F34AA8D2BBB5} = {CF084B37-82C4-45A4-9CDB-79E84B70E219}
 		{06D611BD-A584-476E-9C29-87D2F325D790} = {CF084B37-82C4-45A4-9CDB-79E84B70E219}
 		{517424E0-71F8-4825-8B82-00140A89739E} = {CF084B37-82C4-45A4-9CDB-79E84B70E219}
-		{BAF7AA04-1CDA-4042-97D9-FF2AEF5313A8} = {CF084B37-82C4-45A4-9CDB-79E84B70E219}
 		{C41AD890-E3F2-49A9-B35F-16B415C7F38E} = {2EF61449-0F30-44E0-8661-CD429532B737}
 		{7191665F-25DB-4D8B-8EAC-0CCD28DEBA09} = {2EF61449-0F30-44E0-8661-CD429532B737}
 		{B4C82656-1E41-4406-918D-DB382ACDBD06} = {2EF61449-0F30-44E0-8661-CD429532B737}
 		{40B54B41-5094-4C5D-9B3C-BB86B22FBC65} = {2EF61449-0F30-44E0-8661-CD429532B737}
 		{269AA53E-4247-4210-BD13-7819B07828A5} = {2EF61449-0F30-44E0-8661-CD429532B737}
+		{CD27CCDD-AFD5-4C22-B76D-AABFFA8277CF} = {CF084B37-82C4-45A4-9CDB-79E84B70E219}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACB66D9-89EF-4DE2-9185-4F45289604E6}
