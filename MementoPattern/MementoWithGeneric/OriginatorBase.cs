@@ -19,7 +19,8 @@ namespace MementoWithGeneric
             {
                 if(value == null)
                 {
-                    throw new ArgumentNullException();
+                    ArgumentNullException argumentNullException = new ArgumentNullException($"{nameof(value)} is null");
+                    throw argumentNullException;
                 }
                 this.state = value.State;
             }

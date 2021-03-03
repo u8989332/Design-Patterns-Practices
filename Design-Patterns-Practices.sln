@@ -145,6 +145,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoWithGeneric.Tests", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BannerByObjectAdapter", "AdapterPattern\BannerByObjectAdapter\BannerByObjectAdapter.csproj", "{CD27CCDD-AFD5-4C22-B76D-AABFFA8277CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoInStack", "MementoPattern\MementoInStack\MementoInStack.csproj", "{98A051B7-CF10-4859-925D-667E479943FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MementoInStack.Tests", "MementoPattern\MementoInStack.Tests\MementoInStack.Tests.csproj", "{C32C516D-6173-49BA-BB4A-CE440F488504}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -359,6 +363,14 @@ Global
 		{CD27CCDD-AFD5-4C22-B76D-AABFFA8277CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD27CCDD-AFD5-4C22-B76D-AABFFA8277CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD27CCDD-AFD5-4C22-B76D-AABFFA8277CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98A051B7-CF10-4859-925D-667E479943FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98A051B7-CF10-4859-925D-667E479943FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98A051B7-CF10-4859-925D-667E479943FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98A051B7-CF10-4859-925D-667E479943FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C32C516D-6173-49BA-BB4A-CE440F488504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32C516D-6173-49BA-BB4A-CE440F488504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32C516D-6173-49BA-BB4A-CE440F488504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32C516D-6173-49BA-BB4A-CE440F488504}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -416,6 +428,8 @@ Global
 		{40B54B41-5094-4C5D-9B3C-BB86B22FBC65} = {2EF61449-0F30-44E0-8661-CD429532B737}
 		{269AA53E-4247-4210-BD13-7819B07828A5} = {2EF61449-0F30-44E0-8661-CD429532B737}
 		{CD27CCDD-AFD5-4C22-B76D-AABFFA8277CF} = {CF084B37-82C4-45A4-9CDB-79E84B70E219}
+		{98A051B7-CF10-4859-925D-667E479943FD} = {2EF61449-0F30-44E0-8661-CD429532B737}
+		{C32C516D-6173-49BA-BB4A-CE440F488504} = {2EF61449-0F30-44E0-8661-CD429532B737}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ACB66D9-89EF-4DE2-9185-4F45289604E6}
